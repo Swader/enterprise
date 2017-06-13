@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "88670c99ad5140b4fc627a99660fdcda",
+    "content-hash": "cc8bfe3a086ed2544374acf5596e9bc7",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2669,16 +2669,16 @@
         },
         {
             "name": "layershifter/tld-database",
-            "version": "1.0.42",
+            "version": "1.0.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/layershifter/TLDDatabase.git",
-                "reference": "c964aaad10af0b0119cbc803e5b32bc7b76d74bd"
+                "reference": "ed4c775c147e1c21816e78a290bb6b6e5f0465af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/layershifter/TLDDatabase/zipball/c964aaad10af0b0119cbc803e5b32bc7b76d74bd",
-                "reference": "c964aaad10af0b0119cbc803e5b32bc7b76d74bd",
+                "url": "https://api.github.com/repos/layershifter/TLDDatabase/zipball/ed4c775c147e1c21816e78a290bb6b6e5f0465af",
+                "reference": "ed4c775c147e1c21816e78a290bb6b6e5f0465af",
                 "shasum": ""
             },
             "require": {
@@ -2716,7 +2716,7 @@
                 "domain database",
                 "tld database"
             ],
-            "time": "2017-04-14T07:30:19+00:00"
+            "time": "2017-06-12T11:18:05+00:00"
         },
         {
             "name": "layershifter/tld-extract",
@@ -4760,33 +4760,39 @@
         },
         {
             "name": "sulu/article-bundle",
-            "version": "dev-hotfix/urls-parameter",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/SuluArticleBundle.git",
-                "reference": "4fd31204969e45999de596ea218e25e5943a4820"
+                "reference": "32234cee17503ee72ce6a5c259705856ba350a4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/SuluArticleBundle/zipball/4fd31204969e45999de596ea218e25e5943a4820",
-                "reference": "4fd31204969e45999de596ea218e25e5943a4820",
+                "url": "https://api.github.com/repos/sulu/SuluArticleBundle/zipball/32234cee17503ee72ce6a5c259705856ba350a4c",
+                "reference": "32234cee17503ee72ce6a5c259705856ba350a4c",
                 "shasum": ""
             },
             "require": {
+                "jackalope/jackalope": "^1.2.8 || >=1.3.3",
                 "ongr/elasticsearch-bundle": "^1.2.9 || ~5.0",
                 "ongr/elasticsearch-dsl": "^2.2.2 || ~5.0",
                 "php": "^5.5 || ^7.0",
-                "sulu/sulu": "^1.5.3 || dev-develop"
+                "sulu/sulu": "1.6.0-RC1 as 1.5.0"
             },
             "require-dev": {
                 "jackalope/jackalope-doctrine-dbal": "^1.2.5",
-                "jackalope/jackalope-jackrabbit": "1.2.*",
-                "massive/search-bundle": "@dev",
+                "jackalope/jackalope-jackrabbit": "^1.2",
+                "php-task/php-task": "dev-master as 1.1.0",
+                "php-task/task-bundle": "dev-master as 1.1.0",
                 "phpunit/phpunit": "^4.8 || ^5.0",
-                "sulu/document-manager": "@dev",
+                "sulu/automation-bundle": "^1.0",
+                "sulu/document-manager": "0.10-RC1 as 0.9.0",
                 "symfony/monolog-bundle": "2.4.*",
                 "zendframework/zend-stdlib": "2.3.1 as 2.0.0rc5",
                 "zendframework/zendsearch": "2.*@dev"
+            },
+            "suggest": {
+                "sulu/automation-bundle": "Allows to outsource long-running route update processes."
             },
             "type": "sulu-bundle",
             "autoload": {
@@ -4809,10 +4815,10 @@
                 "articles"
             ],
             "support": {
-                "source": "https://github.com/sulu/SuluArticleBundle/tree/hotfix/urls-parameter",
+                "source": "https://github.com/sulu/SuluArticleBundle/tree/develop",
                 "issues": "https://github.com/sulu/SuluArticleBundle/issues"
             },
-            "time": "2017-06-08 10:26:40"
+            "time": "2017-06-12 16:14:43"
         },
         {
             "name": "sulu/document-manager",
@@ -4869,12 +4875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "ff26595441d5437d2ea81b76465fad667c5d0996"
+                "reference": "dd7afa3e86382aa40554201346adf0044860c4a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/ff26595441d5437d2ea81b76465fad667c5d0996",
-                "reference": "ff26595441d5437d2ea81b76465fad667c5d0996",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/dd7afa3e86382aa40554201346adf0044860c4a9",
+                "reference": "dd7afa3e86382aa40554201346adf0044860c4a9",
                 "shasum": ""
             },
             "require": {
@@ -4990,7 +4996,7 @@
                 "source": "https://github.com/sulu/sulu/tree/develop",
                 "issues": "https://github.com/sulu/sulu/issues"
             },
-            "time": "2017-06-07 15:32:13"
+            "time": "2017-06-13 14:05:46"
         },
         {
             "name": "swiftmailer/swiftmailer",
